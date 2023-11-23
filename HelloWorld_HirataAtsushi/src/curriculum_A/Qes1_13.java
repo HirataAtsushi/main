@@ -166,7 +166,14 @@ public class Qes1_13 {
 		// BMIは11.31です
 		bmi /= 2;
 		System.out.println("BMIは" + ((double)Math.round(bmi*100))/100  + "です");
-// 問題10		
+// 問題10	
+		//年齢、身長、体重を再度代入する。
+		//年齢を24歳に宣言
+		age = 24;
+		// 身長を168.5に宣言
+		height = 168.5;
+		// 体重を64.2に宣言
+		weight = 64.2;
 		// 25歳以上の場合trueを表示させる。
 		boolean result = age >= 25 ;
 		System.out.println(result);
