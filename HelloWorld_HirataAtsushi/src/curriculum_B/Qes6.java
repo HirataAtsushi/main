@@ -8,17 +8,17 @@ public class Qes6 {
 		
 		
 		//パソコンの変数宣言をし、１から12の数字をランダムで代入。
-		int ItemCount1 = (int) (Math.random() * 12);
+		int ItemCount1 = (int) (Math.random() * 12) + 1;
 		//冷蔵庫の変数宣言をし、１から12の数字をランダムで代入。
-		int ItemCount2 = (int) (Math.random() * 12);
+		int ItemCount2 = (int) (Math.random() * 12) + 1;
 		//扇風機の変数宣言をし、１から12の数字をランダムで代入。
-		int ItemCount3 = (int) (Math.random() * 12);
+		int ItemCount3 = (int) (Math.random() * 12) + 1;
 		//洗濯機の変数宣言をし、１から12の数字をランダムで代入。
-		int ItemCount4 = (int) (Math.random() * 12);
+		int ItemCount4 = (int) (Math.random() * 12) + 1;
 		//加湿器の変数宣言をし、１から12の数字をランダムで代入。
-		int ItemCount5 = (int) (Math.random() * 12);
+		int ItemCount5 = (int) (Math.random() * 12) + 1;
 		//テレビの変数宣言をし、１から12の数字をランダムで代入。
-		int ItemCount6 = (int) (Math.random() * 12);
+		int ItemCount6 = (int) (Math.random() * 12) + 1;
 		//何度でもコンソールに入力できるようにする。
 		while(true) {
 			//コンソールからの入力値をItemNameに代入。
