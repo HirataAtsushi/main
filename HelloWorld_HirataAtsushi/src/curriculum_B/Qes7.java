@@ -77,6 +77,8 @@ public class Qes7 {
 		System.out.println("社会の平均点は" + String.format("%.2f",TotalSocial / StudentCount) + "点です");
 		//全体の平均点を表示
 		System.out.println("全体の平均点は" + String.format("%.2f",AveAve / StudentCount) + "点です");
-
+		//scannnerを閉じる。
+		scanner.close();
 	}
+	
 }
