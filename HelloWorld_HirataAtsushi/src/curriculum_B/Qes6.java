@@ -18,8 +18,6 @@ public class Qes6 {
 		int ItemCount5 = (int) (Math.random() * 12) + 1;
 		//テレビの変数宣言をし、１から12の数字をランダムで代入。
 		int ItemCount6 = (int) (Math.random() * 12) + 1;
-		//何度でもコンソールに入力できるようにする。
-		while (true) {
 			//コンソールからの入力値をItemNameに代入。
 			String ItemName = scanner.nextLine();
 			//コンソールに○○、○○入力した場合に、で区切って配列に代入。
@@ -77,6 +75,5 @@ public class Qes6 {
 			}
 		//scannnerを閉じる。
 		scanner.close();
-		}
 	}
 }
